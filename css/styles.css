@@ -1,4 +1,10 @@
 /* GLOBAL */
+:root	{
+	--color: #DE2E54;
+	--font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+	--font-text: "Open Sans Condensed", "Arial", sans-serif;
+}
+
 *	{
 	box-sizing: border-box;
 }
@@ -12,7 +18,7 @@ body	{
 	margin: 0;
 	font-size: 16px;
 	line-height: 1.5;
-	font-family: "Open Sans", "Arial", sans-serif;
+	font-family: var(--font-text);
 	letter-spacing: 2px;
 	color: #444;
 	background-color: #fff;
@@ -20,7 +26,7 @@ body	{
 
 
 *:focus	{
-	outline: 3px solid #DE2E54;
+	outline: 3px solid var(--color);
 	outline-offset: 3px;
 }
 
@@ -65,7 +71,7 @@ body	{
 }
 
 .site-logo:hover	{
-	color: #DE2E54;
+	color: var(--color);
 }
 
 .site-logo:active	{
@@ -108,7 +114,7 @@ body	{
 }
 
 .sitenav-link:hover	{
-	color: #DE2E54;
+	color: var(--color);
 }
 
 .sitenav-link:active	{
@@ -120,7 +126,7 @@ body	{
 }
 
 .sitenav-site-footer	.sitenav-link:hover	{
-	color: #DE2E54;
+	color: var(--color);
 }
 
 .sitenav-site-footer	.sitenav-link:active	{
@@ -133,25 +139,25 @@ body	{
 .main-link	{
 	display: inline-block;
 	padding: 10px 22px;
-	border: 2px solid #DE2E54;
+	border: 2px solid var(--color);
 	border-radius: 8px;
 	font-size: 15px;
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	font-family: var();
 	letter-spacing: 2px;
-	background-color: #DE2E54;
+	background-color: var(--color);
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
 .main-link:hover	{
-	border-color: #DE2E54;
+	border-color: var(--color);
 	background-color: #fff;
-	color: #DE2E54;
+	color: var(--color);
 }
 
 .main-link:active	{
-	background-color: #DE2E54;
+	background-color: var(--color);
 	color: #fff;
 	opacity: 0.6;
 }
@@ -174,7 +180,7 @@ body	{
 }
 
 .main-link-outline:hover	{
-	background-color: #DE2E54;
+	background-color: var(--color);
 	color: #fff;
 }
 
@@ -199,7 +205,7 @@ body	{
 .hero-heading	{
 	margin-top: 0;
 	margin-bottom: 16px;
-	font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+	font-family: var(--font-family);
 	font-size: 36px;
 	line-height: 1.2;
 }
@@ -224,7 +230,7 @@ body	{
 	margin-bottom: 56px;
 	font-size: 36px;
 	line-height: 1.2;
-	font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+	font-family: var(--font-family);
 	color: #000;
 	text-align: center;
 }
@@ -289,7 +295,7 @@ body	{
 	margin-bottom: 40px;
 	font-size: 36px;
 	line-height: 1.2;
-	font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+	font-family: var(--font-family);
 	text-align: center;
 }
 
